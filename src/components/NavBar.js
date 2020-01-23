@@ -10,8 +10,7 @@ export default class Navbar extends Component{
                 {/* https://www.iconfinder.com/icons/1243689/call_phone_icon
                     Creative Commons (Attribution 3.0 Unported);
                     https://www.iconfinder.com/Makoto_msk 
-                    we just wrote the link to this logo here because it is not our own logo, but we downloaded it from
-                     the site written above, and they want us to indicate that in our project.*/}
+                  */}
                 <Link to='/'>
                     <img src={logo} alt='navbar-brand'  className="navbar-brand"/>
                 </Link>
@@ -37,7 +36,7 @@ export default class Navbar extends Component{
 }
 
 const NavWrapper = styled.nav`
-    background: crimson;
+    background: navy;
     .nav-link{
         color: var(--mainWhite) !important;
         font-size: 1.3rem;
